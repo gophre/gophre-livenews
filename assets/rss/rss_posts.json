@@ -1,5 +1,83 @@
 [
   {
+    "id": "03f1f85a7924b9c83caa19f50f6e50a8",
+    "source": {
+      "path": "forums",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/golang.rss"
+    },
+    "name": "Go Blogs",
+    "url": "https://www.reddit.com/r/golang/comments/12i9gpr/go_blogs/",
+    "resume": "",
+    "date": "2023-04-11T05:16:39Z",
+    "vote": 0
+  },
+  {
+    "id": "f6a0ee287740051eccdc34cd0c32959f",
+    "source": {
+      "path": "forums",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/golang.rss"
+    },
+    "name": "The day /r/golang was almost deleted",
+    "url": "https://www.reddit.com/r/golang/comments/12i6t8d/the_day_rgolang_was_almost_deleted/",
+    "resume": "",
+    "date": "2023-04-11T03:25:02Z",
+    "vote": 0
+  },
+  {
+    "id": "c3fccc37b14c12c9eebfbdbc218d1f26",
+    "source": {
+      "path": "forums",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/golang.rss"
+    },
+    "name": "chat-gpt TUI written in Go: Prompt-AI",
+    "url": "https://www.reddit.com/r/golang/comments/12i6cwj/chatgpt_tui_written_in_go_promptai/",
+    "resume": "",
+    "date": "2023-04-11T03:06:51Z",
+    "vote": 0
+  },
+  {
+    "id": "442fd4ac7f94a3b9d5a08f4b5ad926f7",
+    "source": {
+      "path": "forums",
+      "name": "Golang Bridge",
+      "url": "https://forum.golangbridge.org/posts.rss"
+    },
+    "name": "SetMemoryLimit but still OOMKilled (Out of memory killed)",
+    "url": "https://forum.golangbridge.org/t/setmemorylimit-but-still-oomkilled-out-of-memory-killed/31268#post_4",
+    "resume": " \u003cp\u003eyour application could have long-lived heap allocations, so the GC does do not much if you use this every time, like a cache in memory,\u003c/p\u003e\n\u003cp\u003ethis is a nice post to explain a little better about this\u003c/p\u003e\u003caside class=\"onebox allowlistedgeneric\" data-onebox-src=\"https://weaviate.io/blog/gomemlimit-a-game-changer-for-high-memory-applications\"\u003e\n  \u003cheader class=\"source\"\u003e\n      \u003cimg src=\"https://weaviate.io/img/favicon.ico\" class=\"site-icon\" width=\"48\" height=\"48\"\u003e\n\n      \u003ca href=\"https://weaviate.io/blog/gomemlimit-a-game-changer-for-high-memory-applications\" target=\"_blank\" rel=\"noopener nofollow ugc\" title=\"12:00AM - 15 August 2022\"\u003eweaviate.io – 15 Aug 22\u003c/a\u003e\n  \u003c/header\u003e\n\n  \u003carticle class=\"onebox-body\"\u003e\n    \u003cdiv class=\"aspect-image\" style=\"--aspect-ratio:690/491;\"\u003e\u003cimg src=\"https://weaviate.io/assets/images/hero-461c04a76bbf88f2115f4cf19be0023e.jpg\" class=\"thumbnail\" width=\"690\" height=\"491\"\u003e\u003c/div\u003e\n\n\u003ch3\u003e\u003ca href=\"https://weaviate.io/blog/gomemlimit-a-game-changer-for-high-memory-applications\" target=\"_blank\" rel=\"noopener nofollow ugc\"\u003eGOMEMLIMIT is a game changer for high-memory applications | Weaviate - vector...\u003c/a\u003e\u003c/h3\u003e\n\n  \u003cp\u003eGo 1.19 introduced GOMEMLIMIT, which completely changes how you can manage memory limits in Go. Learn how it helps Weaviate be more reliable.\u003c/p\u003e\n\n\n  \u003c/article\u003e\n\n  \u003cdiv class=\"onebox-metadata\"\u003e\n    \n    \n  \u003c/div\u003e\n\n  \u003cdiv style=\"clear: both\"\u003e\u003c/div\u003e\n\u003c/aside\u003e\n\n\u003cp\u003e\u003cimg src=\"https://forum.golangbridge.org/images/emoji/google/point_up_2.png?v=12\" title=\":point_up_2:\" class=\"emoji\" alt=\":point_up_2:\" loading=\"lazy\" width=\"20\" height=\"20\"\u003e The Go authors explicitly label GOMEMLIMIT a “soft” limit. That means that the Go runtime does not guarantee that the memory usage will exceed the limit. Instead, it uses it as a target.\u003c/p\u003e ",
+    "date": "2023-04-11T01:33:30Z",
+    "vote": 0
+  },
+  {
+    "id": "bb4f13886b7e37d0770f4069286e6feb",
+    "source": {
+      "path": "forums",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/golang.rss"
+    },
+    "name": "Workaround for pinning dev dependencies",
+    "url": "https://www.reddit.com/r/golang/comments/12i2c1x/workaround_for_pinning_dev_dependencies/",
+    "resume": "",
+    "date": "2023-04-11T00:33:43Z",
+    "vote": 0
+  },
+  {
+    "id": "c73e5567d825c2155314d33523e95d2e",
+    "source": {
+      "path": "forums",
+      "name": "Golang Bridge",
+      "url": "https://forum.golangbridge.org/posts.rss"
+    },
+    "name": "SetMemoryLimit but still OOMKilled (Out of memory killed)",
+    "url": "https://forum.golangbridge.org/t/setmemorylimit-but-still-oomkilled-out-of-memory-killed/31268#post_3",
+    "resume": " \u003cp\u003eRead the 3rd paragraph here \u003ca href=\"https://pkg.go.dev/runtime/debug#SetMemoryLimit\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\"\u003edebug package - runtime/debug - Go Packages\u003c/a\u003e.  It explains examples of memory usage that is outside the control of \u003ccode\u003eSetMemoryLimit\u003c/code\u003e.  That’s likely what you need to look for.\u003c/p\u003e ",
+    "date": "2023-04-10T23:19:02Z",
+    "vote": 0
+  },
+  {
     "id": "3fdeb97ad4aeadfe6d6d2fd842506f79",
     "source": {
       "path": "forums",
