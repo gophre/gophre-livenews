@@ -12233,6 +12233,19 @@
     "vote": 0
   },
   {
+    "id": "3cb8f4c69b604b5b3412f4b72a3f5ccc",
+    "source": {
+      "path": "blogs",
+      "name": "A journey with Go",
+      "url": "https://medium.com/feed/a-journey-with-go"
+    },
+    "name": "Go: Story of TryLock Function",
+    "url": "https://medium.com/a-journey-with-go/go-story-of-trylock-function-a69ef6dbb410?source=rss----3730967d0651---4",
+    "resume": "\u003cdiv class=\"medium-feed-item\"\u003e\u003cp class=\"medium-feed-image\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-story-of-trylock-function-a69ef6dbb410?source=rss----3730967d0651---4\"\u003e\u003cimg src=\"https://cdn-images-1.medium.com/max/2500/1*aMcuI9iWGwVWobLFlxfauQ.png\" width=\"2500\"\u003e\u003c/a\u003e\u003c/p\u003e\u003cp class=\"medium-feed-snippet\"\u003e\u0026#x2139;\u0026#xFE0F; This article is based on Go 1.18.\u003c/p\u003e\u003cp class=\"medium-feed-link\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-story-of-trylock-function-a69ef6dbb410?source=rss----3730967d0651---4\"\u003eContinue reading on A Journey With Go »\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+    "date": "2022-05-06T06:12:37Z",
+    "vote": 0
+  },
+  {
     "id": "7b7c89d9083ba24671be26cc565c1cf0",
     "source": {
       "path": "podcasts",
@@ -12347,6 +12360,32 @@
     "url": "https://gosamples.dev/random-string/",
     "resume": "\u003cp\u003eTo generate a random string in Go, you need to write a custom function that randomly selects characters from a given charset as many times as the set length of the output and combines them to form a random, fixed-length string.\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cdiv class=\"chroma\"\u003e\n\u003ctable class=\"lntable\"\u003e\u003ctr\u003e\u003ctd class=\"lntd\"\u003e\n\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode\u003e\u003cspan class=\"lnt\"\u003e 1\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e 2\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e 3\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e 4\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e 5\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e 6\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e 7\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e 8\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e 9\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e10\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e11\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e12\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e13\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e14\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e15\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e16\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e17\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e18\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e19\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e20\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e21\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e22\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e23\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e24\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e25\n\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\n\u003ctd class=\"lntd\"\u003e\n\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-go\" data-lang=\"go\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"kn\"\u003epackage\u003c/span\u003e \u003cspan class=\"nx\"\u003emain\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"kn\"\u003eimport\u003c/span\u003e \u003cspan class=\"p\"\u003e(\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"s\"\u003e\u0026#34;fmt\u0026#34;\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"s\"\u003e\u0026#34;math/rand\u0026#34;\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"s\"\u003e\u0026#34;strings\u0026#34;\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"s\"\u003e\u0026#34;time\u0026#34;\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"p\"\u003e)\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"kd\"\u003econst\u003c/span\u003e \u003cspan class=\"nx\"\u003echarset\u003c/span\u003e \u003cspan class=\"p\"\u003e=\u003c/span\u003e \u003cspan class=\"s\"\u003e\u0026#34;abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\u0026#34;\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"kd\"\u003efunc\u003c/span\u003e \u003cspan class=\"nf\"\u003erandomString\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nx\"\u003en\u003c/span\u003e \u003cspan class=\"kt\"\u003eint\u003c/span\u003e\u003cspan class=\"p\"\u003e)\u003c/span\u003e \u003cspan class=\"kt\"\u003estring\u003c/span\u003e \u003cspan class=\"p\"\u003e{\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"nx\"\u003esb\u003c/span\u003e \u003cspan class=\"o\"\u003e:=\u003c/span\u003e \u003cspan class=\"nx\"\u003estrings\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nx\"\u003eBuilder\u003c/span\u003e\u003cspan class=\"p\"\u003e{}\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"nx\"\u003esb\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003eGrow\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nx\"\u003en\u003c/span\u003e\u003cspan class=\"p\"\u003e)\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"k\"\u003efor\u003c/span\u003e \u003cspan class=\"nx\"\u003ei\u003c/span\u003e \u003cspan class=\"o\"\u003e:=\u003c/span\u003e \u003cspan class=\"mi\"\u003e0\u003c/span\u003e\u003cspan class=\"p\"\u003e;\u003c/span\u003e \u003cspan class=\"nx\"\u003ei\u003c/span\u003e \u003cspan class=\"p\"\u003e\u0026lt;\u003c/span\u003e \u003cspan class=\"nx\"\u003en\u003c/span\u003e\u003cspan class=\"p\"\u003e;\u003c/span\u003e \u003cspan class=\"nx\"\u003ei\u003c/span\u003e\u003cspan class=\"o\"\u003e++\u003c/span\u003e \u003cspan class=\"p\"\u003e{\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"nx\"\u003esb\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003eWriteByte\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nx\"\u003echarset\u003c/span\u003e\u003cspan class=\"p\"\u003e[\u003c/span\u003e\u003cspan class=\"nx\"\u003erand\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003eIntn\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nb\"\u003elen\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nx\"\u003echarset\u003c/span\u003e\u003cspan class=\"p\"\u003e))])\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"p\"\u003e}\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"k\"\u003ereturn\u003c/span\u003e \u003cspan class=\"nx\"\u003esb\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003eString\u003c/span\u003e\u003cspan class=\"p\"\u003e()\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"p\"\u003e}\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"kd\"\u003efunc\u003c/span\u003e \u003cspan class=\"nf\"\u003emain\u003c/span\u003e\u003cspan class=\"p\"\u003e()\u003c/span\u003e \u003cspan class=\"p\"\u003e{\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"nx\"\u003erand\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003eSeed\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nx\"\u003etime\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003eNow\u003c/span\u003e\u003cspan class=\"p\"\u003e().\u003c/span\u003e\u003cspan class=\"nf\"\u003eUnixNano\u003c/span\u003e\u003cspan class=\"p\"\u003e())\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"nx\"\u003efmt\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003ePrintln\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nf\"\u003erandomString\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"mi\"\u003e20\u003c/span\u003e\u003cspan class=\"p\"\u003e))\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"p\"\u003e}\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\n\u003c/div\u003e\n\u003c/div\u003e\u003ch2 id=\"how-it-works\"\u003eHow it works\u003c/h2\u003e\n\u003ch3 id=\"the-randomstring-function\"\u003eThe \u003ccode\u003erandomString()\u003c/code\u003e function\u003c/h3\u003e\n\u003col class=\"steps\"\u003e\n\u003cli class=\"steps__item\"\u003e\n\u003cspan class=\"steps__itemTitle\"\u003eThe \u003ca href=\"https://pkg.go.dev/strings#Builder\" target=\"_blank\"\u003e\u003ccode\u003estrings.Builder\u003c/code\u003e\u003c/a\u003e initialization\u003c/span\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cdiv class=\"chroma\"\u003e\n\u003ctable class=\"lntable\"\u003e\u003ctr\u003e\u003ctd class=\"lntd\"\u003e\n\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode\u003e\u003cspan class=\"lnt\"\u003e13\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e14\n\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\n\u003ctd class=\"lntd\"\u003e\n\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-go\" data-lang=\"go\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"nx\"\u003esb\u003c/span\u003e \u003cspan class=\"o\"\u003e:=\u003c/span\u003e \u003cspan class=\"nx\"\u003estrings\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nx\"\u003eBuilder\u003c/span\u003e\u003cspan class=\"p\"\u003e{}\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"nx\"\u003esb\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003eGrow\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nx\"\u003en\u003c/span\u003e\u003cspan class=\"p\"\u003e)\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\n\u003c/div\u003e\n\u003c/div\u003e\u003cp\u003eIn the first step, we create the \u003ca href=\"https://pkg.go.dev/strings#Builder\" target=\"_blank\"\u003e\u003ccode\u003estrings.Builder\u003c/code\u003e\u003c/a\u003e structure and grow its capacity to the size of the output string: \u003ccode\u003en\u003c/code\u003e. The \u003ca href=\"https://pkg.go.dev/strings#Builder\" target=\"_blank\"\u003e\u003ccode\u003estrings.Builder\u003c/code\u003e\u003c/a\u003e is used to efficiently concatenate strings, minimizing the number of copies and memory allocations. In our function, it is used to build and store the output random string.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eSee our post on \u003ca href=\"https://gosamples.dev/concatenate-strings/\"\u003ehow to concatenate strings in Go\u003c/a\u003e.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003c/li\u003e\n\u003cli class=\"steps__item\"\u003e\n\u003cspan class=\"steps__itemTitle\"\u003eRandom character generating loop\u003c/span\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cdiv class=\"chroma\"\u003e\n\u003ctable class=\"lntable\"\u003e\u003ctr\u003e\u003ctd class=\"lntd\"\u003e\n\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode\u003e\u003cspan class=\"lnt\"\u003e15\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e16\n\u003c/span\u003e\u003cspan class=\"lnt\"\u003e17\n\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\n\u003ctd class=\"lntd\"\u003e\n\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-go\" data-lang=\"go\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"k\"\u003efor\u003c/span\u003e \u003cspan class=\"nx\"\u003ei\u003c/span\u003e \u003cspan class=\"o\"\u003e:=\u003c/span\u003e \u003cspan class=\"mi\"\u003e0\u003c/span\u003e\u003cspan class=\"p\"\u003e;\u003c/span\u003e \u003cspan class=\"nx\"\u003ei\u003c/span\u003e \u003cspan class=\"p\"\u003e\u0026lt;\u003c/span\u003e \u003cspan class=\"nx\"\u003en\u003c/span\u003e\u003cspan class=\"p\"\u003e;\u003c/span\u003e \u003cspan class=\"nx\"\u003ei\u003c/span\u003e\u003cspan class=\"o\"\u003e++\u003c/span\u003e \u003cspan class=\"p\"\u003e{\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e \u003cspan class=\"nx\"\u003esb\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003eWriteByte\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nx\"\u003echarset\u003c/span\u003e\u003cspan class=\"p\"\u003e[\u003c/span\u003e\u003cspan class=\"nx\"\u003erand\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003eIntn\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nb\"\u003elen\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nx\"\u003echarset\u003c/span\u003e\u003cspan class=\"p\"\u003e))])\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"p\"\u003e}\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\n\u003c/div\u003e\n\u003c/div\u003e\u003cp\u003eIn the \u003ccode\u003efor\u003c/code\u003e loop, we generate the \u003ccode\u003en\u003c/code\u003e (size of the output string) random characters and add them to the previously created \u003ca href=\"https://pkg.go.dev/strings#Builder\" target=\"_blank\"\u003e\u003ccode\u003estrings.Builder\u003c/code\u003e\u003c/a\u003e. Selecting random characters is done by the \u003ca href=\"https://pkg.go.dev/math/rand#Intn\" target=\"_blank\"\u003e\u003ccode\u003erand.Intn()\u003c/code\u003e\u003c/a\u003e function, which returns a random number between 0 and \u003ccode\u003eX\u003c/code\u003e, where \u003ccode\u003eX\u003c/code\u003e is the argument of the \u003ca href=\"https://pkg.go.dev/math/rand#Intn\" target=\"_blank\"\u003e\u003ccode\u003erand.Intn()\u003c/code\u003e\u003c/a\u003e function. In our case, \u003ccode\u003echarset[rand.Intn(len(charset))]\u003c/code\u003e means that we select a random number in the half-open interval [0,\u003ccode\u003elen(charset)\u003c/code\u003e), and then get a character from the \u003ccode\u003echarset\u003c/code\u003e string at this random index. Doing this \u003ccode\u003en\u003c/code\u003e times and adding to the result gives us a random string of length \u003ccode\u003en\u003c/code\u003e.\u003c/p\u003e\n\u003cblockquote\u003e\n\u003cp\u003eIf you want to limit or add new characters to the set from which the random string is made, modify the \u003ccode\u003echarset\u003c/code\u003e constant.\u003c/p\u003e\n\u003c/blockquote\u003e\n\u003c/li\u003e\n\u003cli class=\"steps__item\"\u003e\n\u003cspan class=\"steps__itemTitle\"\u003eReturn the result\u003c/span\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cdiv class=\"chroma\"\u003e\n\u003ctable class=\"lntable\"\u003e\u003ctr\u003e\u003ctd class=\"lntd\"\u003e\n\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode\u003e\u003cspan class=\"lnt\"\u003e18\n\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\n\u003ctd class=\"lntd\"\u003e\n\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-go\" data-lang=\"go\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"k\"\u003ereturn\u003c/span\u003e \u003cspan class=\"nx\"\u003esb\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003eString\u003c/span\u003e\u003cspan class=\"p\"\u003e()\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\n\u003c/div\u003e\n\u003c/div\u003e\u003cp\u003eBy calling the \u003ca href=\"https://pkg.go.dev/strings#Builder.String\" target=\"_blank\"\u003e\u003ccode\u003eBuilder.String()\u003c/code\u003e\u003c/a\u003e method, we get the accumulated string that we return from the function.\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ol\u003e\n\u003ch3 id=\"the-main-function\"\u003eThe \u003ccode\u003emain()\u003c/code\u003e function\u003c/h3\u003e\n\u003col class=\"steps\"\u003e\n\u003cli class=\"steps__item\"\u003e\n\u003cspan class=\"steps__itemTitle\"\u003eSeed\u003c/span\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cdiv class=\"chroma\"\u003e\n\u003ctable class=\"lntable\"\u003e\u003ctr\u003e\u003ctd class=\"lntd\"\u003e\n\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode\u003e\u003cspan class=\"lnt\"\u003e22\n\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\n\u003ctd class=\"lntd\"\u003e\n\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-go\" data-lang=\"go\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"nx\"\u003erand\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003eSeed\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nx\"\u003etime\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003eNow\u003c/span\u003e\u003cspan class=\"p\"\u003e().\u003c/span\u003e\u003cspan class=\"nf\"\u003eUnixNano\u003c/span\u003e\u003cspan class=\"p\"\u003e())\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\n\u003c/div\u003e\n\u003c/div\u003e\u003cp\u003eIn the first line of the \u003ccode\u003emain()\u003c/code\u003e function, we set the timestamp of current time \u003ca href=\"https://pkg.go.dev/time#Time.UnixNano\" target=\"_blank\"\u003e\u003ccode\u003etime.Now().UnixNano()\u003c/code\u003e\u003c/a\u003e as the \u003ca href=\"https://en.wikipedia.org/wiki/Random_seed\" target=\"_blank\"\u003eseed\u003c/a\u003e of the pseudorandom number generator. Without it, the \u003ca href=\"https://pkg.go.dev/math/rand#Intn\" target=\"_blank\"\u003e\u003ccode\u003erand.Intn()\u003c/code\u003e\u003c/a\u003e function would return the same result every time, and the output string would remain the same between runs of the program. This is because the pseudo-random number generators produce new values by performing some operations on the previous value, and when the initial value (the seed value) stays the same, you get the same output numbers.\u003c/p\u003e\n\u003c/li\u003e\n\u003cli class=\"steps__item\"\u003e\n\u003cspan class=\"steps__itemTitle\"\u003eCalling the \u003ccode\u003erandomString()\u003c/code\u003e function\u003c/span\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cdiv class=\"chroma\"\u003e\n\u003ctable class=\"lntable\"\u003e\u003ctr\u003e\u003ctd class=\"lntd\"\u003e\n\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode\u003e\u003cspan class=\"lnt\"\u003e24\n\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\n\u003ctd class=\"lntd\"\u003e\n\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-go\" data-lang=\"go\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003e\u003cspan class=\"nx\"\u003efmt\u003c/span\u003e\u003cspan class=\"p\"\u003e.\u003c/span\u003e\u003cspan class=\"nf\"\u003ePrintln\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"nf\"\u003erandomString\u003c/span\u003e\u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"mi\"\u003e20\u003c/span\u003e\u003cspan class=\"p\"\u003e))\u003c/span\u003e\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e\n\u003c/div\u003e\n\u003c/div\u003e\u003cp\u003eIn the last line, we generate a random string of length 20 and print it to the standard output. Run the program several times to see a different string each time:\u003c/p\u003e\n\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-shell\" data-lang=\"shell\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003eXqtscOKPBRGnAXMnzKzq\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-shell\" data-lang=\"shell\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003eAPHQenfBuRrTlMzDShyr\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre tabindex=\"0\" class=\"chroma\"\u003e\u003ccode class=\"language-shell\" data-lang=\"shell\"\u003e\u003cspan class=\"line\"\u003e\u003cspan class=\"cl\"\u003edfXgMuGTnfUkLVZQXonw\n\u003c/span\u003e\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\n\u003c/li\u003e\n\u003c/ol\u003e",
     "date": "2022-04-21T00:00:00Z",
+    "vote": 0
+  },
+  {
+    "id": "44f3eec9007bea07cf606f01b4548df1",
+    "source": {
+      "path": "blogs",
+      "name": "A journey with Go",
+      "url": "https://medium.com/feed/a-journey-with-go"
+    },
+    "name": "Go: How to Mitigate RUDY DoS Attack",
+    "url": "https://medium.com/a-journey-with-go/go-how-to-mitigate-rudy-dos-attack-3bd9c1662848?source=rss----3730967d0651---4",
+    "resume": "\u003cdiv class=\"medium-feed-item\"\u003e\u003cp class=\"medium-feed-image\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-how-to-mitigate-rudy-dos-attack-3bd9c1662848?source=rss----3730967d0651---4\"\u003e\u003cimg src=\"https://cdn-images-1.medium.com/max/1800/1*VTcnL59sDdOatxrBzOVQhA.png\" width=\"1800\"\u003e\u003c/a\u003e\u003c/p\u003e\u003cp class=\"medium-feed-snippet\"\u003e\u0026#x2139;\u0026#xFE0F; This article is based on Go 1.18.\u003c/p\u003e\u003cp class=\"medium-feed-link\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-how-to-mitigate-rudy-dos-attack-3bd9c1662848?source=rss----3730967d0651---4\"\u003eContinue reading on A Journey With Go »\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+    "date": "2022-04-20T16:49:07Z",
+    "vote": 0
+  },
+  {
+    "id": "e4e3755faef039c198206890f6a4646f",
+    "source": {
+      "path": "blogs",
+      "name": "A journey with Go",
+      "url": "https://medium.com/feed/a-journey-with-go"
+    },
+    "name": "Go: Understand And Mitigate Slowloris Attack",
+    "url": "https://medium.com/a-journey-with-go/go-understand-and-mitigate-slowloris-attack-711c1b1403f6?source=rss----3730967d0651---4",
+    "resume": "\u003cdiv class=\"medium-feed-item\"\u003e\u003cp class=\"medium-feed-image\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-understand-and-mitigate-slowloris-attack-711c1b1403f6?source=rss----3730967d0651---4\"\u003e\u003cimg src=\"https://cdn-images-1.medium.com/max/2245/1*ToNAuwvb4cwwzrJdIAdLsQ.png\" width=\"2245\"\u003e\u003c/a\u003e\u003c/p\u003e\u003cp class=\"medium-feed-snippet\"\u003e\u0026#x2139;\u0026#xFE0F; This article is based on Go 1.18.\u003c/p\u003e\u003cp class=\"medium-feed-link\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-understand-and-mitigate-slowloris-attack-711c1b1403f6?source=rss----3730967d0651---4\"\u003eContinue reading on A Journey With Go »\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+    "date": "2022-04-20T16:43:57Z",
     "vote": 0
   },
   {
@@ -16965,6 +17004,19 @@
     "vote": 0
   },
   {
+    "id": "73e05e218ee04da9921bde8693b379f6",
+    "source": {
+      "path": "blogs",
+      "name": "A journey with Go",
+      "url": "https://medium.com/feed/a-journey-with-go"
+    },
+    "name": "Go: How Does a Program Recover?",
+    "url": "https://medium.com/a-journey-with-go/go-how-does-a-program-recover-fbbbf27cc31e?source=rss----3730967d0651---4",
+    "resume": "\u003cdiv class=\"medium-feed-item\"\u003e\u003cp class=\"medium-feed-image\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-how-does-a-program-recover-fbbbf27cc31e?source=rss----3730967d0651---4\"\u003e\u003cimg src=\"https://cdn-images-1.medium.com/max/2600/1*4zRau44piN5HjUnTnJsMOw.png\" width=\"4325\"\u003e\u003c/a\u003e\u003c/p\u003e\u003cp class=\"medium-feed-snippet\"\u003ePanics in Go are triggered when the program cannot handle an error properly, such as invalid memory access. It can also be triggered by\u0026#x2026;\u003c/p\u003e\u003cp class=\"medium-feed-link\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-how-does-a-program-recover-fbbbf27cc31e?source=rss----3730967d0651---4\"\u003eContinue reading on A Journey With Go »\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+    "date": "2020-10-02T15:21:58Z",
+    "vote": 0
+  },
+  {
     "id": "12a598766535cf26064c350a9b8996f3",
     "source": {
       "path": "podcasts",
@@ -17053,6 +17105,19 @@
     "url": "https://blog.boot.dev/python/python-in-the-browser/",
     "resume": "I\u0026rsquo;ve been wanting to expand boot.dev\u0026rsquo;s curriculum, and one of the most requested programming languages has been Python.",
     "date": "2020-09-24T00:00:00Z",
+    "vote": 0
+  },
+  {
+    "id": "a1f2785c8e4caddb9f2445cbff0d344d",
+    "source": {
+      "path": "blogs",
+      "name": "A journey with Go",
+      "url": "https://medium.com/feed/a-journey-with-go"
+    },
+    "name": "Go: Goroutine Leak Detector",
+    "url": "https://medium.com/a-journey-with-go/go-goroutine-leak-detector-61a949beb88?source=rss----3730967d0651---4",
+    "resume": "\u003cdiv class=\"medium-feed-item\"\u003e\u003cp class=\"medium-feed-image\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-goroutine-leak-detector-61a949beb88?source=rss----3730967d0651---4\"\u003e\u003cimg src=\"https://cdn-images-1.medium.com/max/1806/1*40XhRjPvLrI887jEAg_N1w.png\" width=\"1806\"\u003e\u003c/a\u003e\u003c/p\u003e\u003cp class=\"medium-feed-snippet\"\u003eA goroutine leak can easily be detected via an APM that monitors the number of live goroutines. Here is an example from NewRelic of a\u0026#x2026;\u003c/p\u003e\u003cp class=\"medium-feed-link\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-goroutine-leak-detector-61a949beb88?source=rss----3730967d0651---4\"\u003eContinue reading on A Journey With Go »\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+    "date": "2020-09-23T14:50:40Z",
     "vote": 0
   },
   {
@@ -17238,6 +17303,19 @@
     "vote": 0
   },
   {
+    "id": "d1a435a6a700915cb32a9c7d4a8939ce",
+    "source": {
+      "path": "blogs",
+      "name": "A journey with Go",
+      "url": "https://medium.com/feed/a-journey-with-go"
+    },
+    "name": "Go: Multiple Errors Management",
+    "url": "https://medium.com/a-journey-with-go/go-multiple-errors-management-a67477628cf1?source=rss----3730967d0651---4",
+    "resume": "\u003cdiv class=\"medium-feed-item\"\u003e\u003cp class=\"medium-feed-image\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-multiple-errors-management-a67477628cf1?source=rss----3730967d0651---4\"\u003e\u003cimg src=\"https://cdn-images-1.medium.com/max/2124/1*AqxQgrwYwyaNxnlc7GAc6Q.png\" width=\"2124\"\u003e\u003c/a\u003e\u003c/p\u003e\u003cp class=\"medium-feed-snippet\"\u003eError management in Go is always prone to debate and a recurrent topic in the annual survey about the biggest challenges developers are\u0026#x2026;\u003c/p\u003e\u003cp class=\"medium-feed-link\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-multiple-errors-management-a67477628cf1?source=rss----3730967d0651---4\"\u003eContinue reading on A Journey With Go »\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+    "date": "2020-09-01T13:44:28Z",
+    "vote": 0
+  },
+  {
     "id": "dbb797f5608203337c8c30c58d2da7aa",
     "source": {
       "path": "blogs",
@@ -17394,6 +17472,19 @@
     "vote": 0
   },
   {
+    "id": "8b9a0d90001b11eab3191dc7318700b0",
+    "source": {
+      "path": "blogs",
+      "name": "A journey with Go",
+      "url": "https://medium.com/feed/a-journey-with-go"
+    },
+    "name": "Go: Built-in Functions Optimizations",
+    "url": "https://medium.com/a-journey-with-go/go-built-in-functions-optimizations-70c5abb3a680?source=rss----3730967d0651---4",
+    "resume": "\u003cdiv class=\"medium-feed-item\"\u003e\u003cp class=\"medium-feed-image\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-built-in-functions-optimizations-70c5abb3a680?source=rss----3730967d0651---4\"\u003e\u003cimg src=\"https://cdn-images-1.medium.com/max/2006/1*5T5K8M9VAIHWhClAlKslkA.png\" width=\"2006\"\u003e\u003c/a\u003e\u003c/p\u003e\u003cp class=\"medium-feed-snippet\"\u003e\u0026#x2139;\u0026#xFE0F; This article is based on Go 1.13.\u003c/p\u003e\u003cp class=\"medium-feed-link\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-built-in-functions-optimizations-70c5abb3a680?source=rss----3730967d0651---4\"\u003eContinue reading on A Journey With Go »\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+    "date": "2020-08-12T16:01:01Z",
+    "vote": 0
+  },
+  {
     "id": "34afc6775e86c50477923fa85d9492a6",
     "source": {
       "path": "blogs",
@@ -17433,6 +17524,19 @@
     "vote": 0
   },
   {
+    "id": "87632cef1997bb508eabfd3fbf172746",
+    "source": {
+      "path": "blogs",
+      "name": "A journey with Go",
+      "url": "https://medium.com/feed/a-journey-with-go"
+    },
+    "name": "Go: Introduction to the Escape Analysis",
+    "url": "https://medium.com/a-journey-with-go/go-introduction-to-the-escape-analysis-f7610174e890?source=rss----3730967d0651---4",
+    "resume": "\u003cdiv class=\"medium-feed-item\"\u003e\u003cp class=\"medium-feed-image\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-introduction-to-the-escape-analysis-f7610174e890?source=rss----3730967d0651---4\"\u003e\u003cimg src=\"https://cdn-images-1.medium.com/max/2600/1*EtNBbXQuRQDSkgAD_DYe2A.png\" width=\"2698\"\u003e\u003c/a\u003e\u003c/p\u003e\u003cp class=\"medium-feed-snippet\"\u003e\u0026#x2139;\u0026#xFE0F; This article is based on Go 1.13.\u003c/p\u003e\u003cp class=\"medium-feed-link\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-introduction-to-the-escape-analysis-f7610174e890?source=rss----3730967d0651---4\"\u003eContinue reading on A Journey With Go »\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+    "date": "2020-08-06T16:01:01Z",
+    "vote": 0
+  },
+  {
     "id": "27e4564d2c641689a4fa5085daea6111",
     "source": {
       "path": "podcasts",
@@ -17469,6 +17573,19 @@
     "url": "https://sdet.us/python-selenium-and-conditional-waits/",
     "resume": "Recently I came to an issue of needing to wait for an element to load. Selenium does have a WebdriverWait that will wait for an item to load. However it doesn’t have the capability of conditional logic, i.e. “selenium wait for element, if it’s not loaded after waiting expires, then do something else.” This is [\u0026#8230;]",
     "date": "2020-08-04T18:20:56Z",
+    "vote": 0
+  },
+  {
+    "id": "b92187a79c238556a9bf7ff7374cdf6c",
+    "source": {
+      "path": "blogs",
+      "name": "A journey with Go",
+      "url": "https://medium.com/feed/a-journey-with-go"
+    },
+    "name": "Go: How to Reduce Lock Contention with the Atomic Package",
+    "url": "https://medium.com/a-journey-with-go/go-how-to-reduce-lock-contention-with-the-atomic-package-ba3b2664b549?source=rss----3730967d0651---4",
+    "resume": "\u003cdiv class=\"medium-feed-item\"\u003e\u003cp class=\"medium-feed-image\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-how-to-reduce-lock-contention-with-the-atomic-package-ba3b2664b549?source=rss----3730967d0651---4\"\u003e\u003cimg src=\"https://cdn-images-1.medium.com/max/1775/1*Jrd9zIc7aD04yk_mlgSbFg.png\" width=\"1775\"\u003e\u003c/a\u003e\u003c/p\u003e\u003cp class=\"medium-feed-snippet\"\u003e\u0026#x2139;\u0026#xFE0F; This article is based on Go 1.14.\u003c/p\u003e\u003cp class=\"medium-feed-link\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-how-to-reduce-lock-contention-with-the-atomic-package-ba3b2664b549?source=rss----3730967d0651---4\"\u003eContinue reading on A Journey With Go »\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+    "date": "2020-08-01T13:08:36Z",
     "vote": 0
   },
   {
@@ -17651,6 +17768,19 @@
     "url": "https://blog.boot.dev/javascript/vue-history-mode-support-legacy-hash-urls/",
     "resume": "When we first launched the boot.dev\u0026rsquo;s single-page-app, we were using Vue Router\u0026rsquo;s default hash routing. Hash routing looks ugly to the end-user, and when you want to be able to share parts of your app via direct link those hashes can get really annoying.",
     "date": "2020-07-15T00:00:00Z",
+    "vote": 0
+  },
+  {
+    "id": "864a24646699886bd6a69cd36581e441",
+    "source": {
+      "path": "blogs",
+      "name": "A journey with Go",
+      "url": "https://medium.com/feed/a-journey-with-go"
+    },
+    "name": "Go: How Are Deadlocks Triggered?",
+    "url": "https://medium.com/a-journey-with-go/go-how-are-deadlocks-triggered-2305504ac019?source=rss----3730967d0651---4",
+    "resume": "\u003cdiv class=\"medium-feed-item\"\u003e\u003cp class=\"medium-feed-image\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-how-are-deadlocks-triggered-2305504ac019?source=rss----3730967d0651---4\"\u003e\u003cimg src=\"https://cdn-images-1.medium.com/max/2600/1*yvJjqOwI4epwA1RrlpP_6Q.png\" width=\"8298\"\u003e\u003c/a\u003e\u003c/p\u003e\u003cp class=\"medium-feed-snippet\"\u003e\u0026#x2139;\u0026#xFE0F; This article is based on Go 1.14.\u003c/p\u003e\u003cp class=\"medium-feed-link\"\u003e\u003ca href=\"https://medium.com/a-journey-with-go/go-how-are-deadlocks-triggered-2305504ac019?source=rss----3730967d0651---4\"\u003eContinue reading on A Journey With Go »\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+    "date": "2020-07-11T17:16:10Z",
     "vote": 0
   },
   {

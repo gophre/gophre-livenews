@@ -25,6 +25,11 @@
 		"url": "https://appliedgo.net/index.xml"
 	},
 	{
+		"path": "blogs",
+		"name": "A journey with Go",
+		"url": "https://medium.com/feed/a-journey-with-go"
+	},
+	{
 		"path": "tools",
 		"name": "GoLand",
 		"url": "https://blog.jetbrains.com/go/feed/"
