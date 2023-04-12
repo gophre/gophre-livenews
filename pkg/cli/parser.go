@@ -1,4 +1,4 @@
-package main
+package cli
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func parseCommand() {
+func ParseCommand() {
 	if len(os.Args) > 1 && os.Args[1] == "reset" {
 		service.Reset()
 	} else if len(os.Args) > 1 && os.Args[1] == "update" {

@@ -14,5 +14,13 @@ go build -ldflags "-s -w" -o bin/gophre cmd/main.go
 boum .
 service gophre stop
 service gophre start
-gigit "Aperiodic update"
+
+message="$1"
+if [[ $# -eq 0 ]]
+then
+	echo "Done."
+else
+	gigit $message
+	echo "Updated."
+fi
 

@@ -1,5 +1,7 @@
 package main
 
+import "gophre/pkg/cli"
+
 func main() {
-	parseCommand()
+	cli.ParseCommand()
 }
