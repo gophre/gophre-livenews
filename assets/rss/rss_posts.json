@@ -1,5 +1,109 @@
 [
   {
+    "id": "2c2b6a16cfb9c5564a7272f48e91a72c",
+    "source": {
+      "path": "forums",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/golang.rss"
+    },
+    "name": "Starting go after py any guidance will be helpful :)",
+    "url": "https://www.reddit.com/r/golang/comments/12j98y5/starting_go_after_py_any_guidance_will_be_helpful/",
+    "resume": "",
+    "date": "2023-04-12T04:01:48Z",
+    "vote": 0
+  },
+  {
+    "id": "6fe9015b31293cda218b378137a0f1f4",
+    "source": {
+      "path": "forums",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/golang.rss"
+    },
+    "name": "Release v0.6.8 · gookit/goutil",
+    "url": "https://www.reddit.com/r/golang/comments/12j8r9s/release_v068_gookitgoutil/",
+    "resume": "",
+    "date": "2023-04-12T03:42:32Z",
+    "vote": 0
+  },
+  {
+    "id": "a00a6c5a9f8c164325fdce0e02b873c9",
+    "source": {
+      "path": "forums",
+      "name": "Golang Bridge",
+      "url": "https://forum.golangbridge.org/posts.rss"
+    },
+    "name": "Gws v1.4.5 update: memory and IO optimization",
+    "url": "https://forum.golangbridge.org/t/gws-v1-4-5-update-memory-and-io-optimization/31284#post_1",
+    "resume": " \u003cp\u003eThis update to gws has improved the IO method, with a peak IOPS increase of about 37% for 1000 connections, reaching 3 times that of gorilla/websocket, and reducing memory consumption to the same level as gorilla/websocket. The details of the improvement are as follows:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eUse io.Reader instead of io.CopyN to read data, avoiding unnecessary allocs\u003c/li\u003e\n\u003cli\u003eUse net.Buffers instead of bufio.Writer to write data and reduce memory copies\u003c/li\u003e\n\u003cli\u003eRemove bufio.Writer from the connection, mark WriteBufferSize parameter as deprecated\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003c/p\u003e\u003cdiv class=\"lightbox-wrapper\"\u003e\u003ca class=\"lightbox\" href=\"https://forum.golangbridge.org/uploads/default/original/2X/a/a1689c560eefd9838907be60cc45f5301f35f99a.png\" data-download-href=\"https://forum.golangbridge.org/uploads/default/a1689c560eefd9838907be60cc45f5301f35f99a\" title=\"image\"\u003e\u003cimg src=\"https://forum.golangbridge.org/uploads/default/optimized/2X/a/a1689c560eefd9838907be60cc45f5301f35f99a_2_690x392.png\" alt=\"image\" data-base62-sha1=\"n1T00pJDQEXAlndOCJjjFeNodNU\" width=\"690\" height=\"392\" srcset=\"https://forum.golangbridge.org/uploads/default/optimized/2X/a/a1689c560eefd9838907be60cc45f5301f35f99a_2_690x392.png, https://forum.golangbridge.org/uploads/default/optimized/2X/a/a1689c560eefd9838907be60cc45f5301f35f99a_2_1035x588.png 1.5x, https://forum.golangbridge.org/uploads/default/optimized/2X/a/a1689c560eefd9838907be60cc45f5301f35f99a_2_1380x784.png 2x\" data-dominant-color=\"EBF0E2\"\u003e\u003c/a\u003e\u003c/div\u003e\u003cp\u003e\u003c/p\u003e\n\u003cp\u003eRepo: \u003ca href=\"https://github.com/lxzan/gws\" rel=\"noopener nofollow ugc\"\u003egithub.com/lxzan/gws\u003c/a\u003e\u003c/p\u003e ",
+    "date": "2023-04-12T03:12:41Z",
+    "vote": 0
+  },
+  {
+    "id": "21027ca49c179336b181c5fa93eb5528",
+    "source": {
+      "path": "forums",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/golang.rss"
+    },
+    "name": "Has anyone used gkit?",
+    "url": "https://www.reddit.com/r/golang/comments/12j5f8z/has_anyone_used_gkit/",
+    "resume": "",
+    "date": "2023-04-12T01:35:46Z",
+    "vote": 0
+  },
+  {
+    "id": "9a2dc7b328469aefcf69aff5a627d99d",
+    "source": {
+      "path": "forums",
+      "name": "Golang Bridge",
+      "url": "https://forum.golangbridge.org/posts.rss"
+    },
+    "name": "ZeroLog runtime error",
+    "url": "https://forum.golangbridge.org/t/zerolog-runtime-error/31283#post_2",
+    "resume": " \u003cp\u003eCan you show your code? I found a similar error message in an issue here: \u003ca href=\"https://github.com/rs/zerolog/issues/422\" class=\"inline-onebox\" rel=\"noopener nofollow ugc\"\u003epanic: runtime error: index out of range [-1] seen when logging with many go coroutines running · Issue #422 · rs/zerolog · GitHub\u003c/a\u003e\u003c/p\u003e ",
+    "date": "2023-04-12T00:29:22Z",
+    "vote": 0
+  },
+  {
+    "id": "3d54b862333c348aabb031481193946e",
+    "source": {
+      "path": "forums",
+      "name": "Golang Bridge",
+      "url": "https://forum.golangbridge.org/posts.rss"
+    },
+    "name": "Any recommended open source project for beginners?",
+    "url": "https://forum.golangbridge.org/t/any-recommended-open-source-project-for-beginners/31253#post_3",
+    "resume": " \u003cp\u003eFind any numerous go-based library that seems interesting to you that also looks like could use help with.\u003c/p\u003e ",
+    "date": "2023-04-12T00:24:03Z",
+    "vote": 0
+  },
+  {
+    "id": "2c670be5127560646d50f4f81c784b1e",
+    "source": {
+      "path": "forums",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/golang.rss"
+    },
+    "name": "execute os command with tinygo",
+    "url": "https://www.reddit.com/r/golang/comments/12j380v/execute_os_command_with_tinygo/",
+    "resume": "",
+    "date": "2023-04-12T00:15:36Z",
+    "vote": 0
+  },
+  {
+    "id": "abf48c5ecaba3831f44849132a2457dd",
+    "source": {
+      "path": "forums",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/golang.rss"
+    },
+    "name": "Go Generic Repo",
+    "url": "https://www.reddit.com/r/golang/comments/12izyds/go_generic_repo/",
+    "resume": "",
+    "date": "2023-04-11T22:23:54Z",
+    "vote": 0
+  },
+  {
     "id": "6db8b96ea302a4cc363ef4f8e3563cbc",
     "source": {
       "path": "forums",
