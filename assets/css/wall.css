@@ -35,7 +35,17 @@ when {
 	font-weight: 700;
 	max-width: 1440px;
 }
-
+hr {
+	border-color: transparent;
+}
+.minilink {
+	font-size: 12px;
+	line-height: 18px;
+	color: #fff5;
+}
+.minilink:hover {
+	color: #fff;
+}
 .hidden {
 	display: none;
 }
