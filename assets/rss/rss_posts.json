@@ -1,5 +1,44 @@
 [
   {
+    "id": "16afab63334064935c25f58e82e2a37d",
+    "source": {
+      "path": "forums",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/golang.rss"
+    },
+    "name": "Opengist - Self-hosted pastebin powered by Git, build with Go",
+    "url": "https://www.reddit.com/r/golang/comments/12jg9nz/opengist_selfhosted_pastebin_powered_by_git_build/",
+    "resume": "",
+    "date": "2023-04-12T09:20:54Z",
+    "vote": 0
+  },
+  {
+    "id": "68b137046d9652ae7c28268eb2917f38",
+    "source": {
+      "path": "forums",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/golang.rss"
+    },
+    "name": "JsonGPT: Mock JSON using GPT",
+    "url": "https://www.reddit.com/r/golang/comments/12jeq74/jsongpt_mock_json_using_gpt/",
+    "resume": "",
+    "date": "2023-04-12T08:05:52Z",
+    "vote": 0
+  },
+  {
+    "id": "b218361dc5ddfea0634e28f972caefde",
+    "source": {
+      "path": "forums",
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/golang.rss"
+    },
+    "name": "Why I, a Frontend Developer, Decided to Learn Golang",
+    "url": "https://www.reddit.com/r/golang/comments/12jd0ph/why_i_a_frontend_developer_decided_to_learn_golang/",
+    "resume": "",
+    "date": "2023-04-12T06:45:39Z",
+    "vote": 0
+  },
+  {
     "id": "ec74122c98c85f304f8acd906228b252",
     "source": {
       "path": "forums",
